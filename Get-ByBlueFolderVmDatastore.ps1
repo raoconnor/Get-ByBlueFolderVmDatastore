@@ -1,4 +1,3 @@
-
 <# 
 Get-ByBlueFolderVmDatastore.ps1
 
