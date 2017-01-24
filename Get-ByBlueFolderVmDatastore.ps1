@@ -7,15 +7,10 @@ Get-ByBlueFolderVmDatastore.ps1
 	usefull when removing dhcp assignments
 	russ 25/01/2016
 	
-.Acknowledgments 
-
-    
+.Acknowledgments    
 .Example
     ./Get-ByBlueFolderVmDatastore.ps1
 #>
-
-
-Get-folder
 
 # Choose folder
 Get-folder
@@ -63,4 +58,5 @@ foreach ( $vm in $vms ){
 		
 # output to gridview
 $resultsarray | Out-GridView
+
 		
